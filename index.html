@@ -4,115 +4,121 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="canonical" href="https://02.design-test.dokuline.com/">
-<title>Layout 02 — design test</title>
-<meta name="description" content="Design test 02">
+<title>Font 02 — Manrope — design test</title>
+<meta name="description" content="Design test 17">
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="variant.css">
 </head>
 <body>
-<div style="position:relative;z-index:9999;display:flex;gap:16px;justify-content:center;align-items:center;padding:6px 12px;background:#05080b;color:#fff;font:600 13px/1.4 Inter,system-ui,sans-serif"><a href="https://01.design-test.dokuline.com/" style="color:#b1ddff;text-decoration:none">← 01</a><span>Layout 02 / 21</span><a href="https://03.design-test.dokuline.com/" style="color:#b1ddff;text-decoration:none">03 →</a></div>
+<div style="position:relative;z-index:9999;display:flex;gap:16px;justify-content:center;align-items:center;padding:6px 12px;background:#05080b;color:#fff;font:600 13px/1.4 system-ui,sans-serif"><a href="https://01.design-test.dokuline.com/" style="color:#b1ddff;text-decoration:none">← 01</a><span>Font 02 / 8: Manrope</span><a href="https://03.design-test.dokuline.com/" style="color:#b1ddff;text-decoration:none">03 →</a></div>
 
-<header class="mast"><div class="wrap">
-  <div class="logo"><a href="#">Lorem Ipsum</a></div>
-  <nav class="top" aria-label="Lorem"><a href="#what">Dolor sit</a><a href="#">Amet</a><a href="#example">Consectetur</a><a href="#start">Incipe</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html">Lorem Ipsum</a>
+  <nav aria-label="Lorem ipsum"><a href="#wat">Dolor sit</a><a href="#">Amet</a><a href="#voorbeeld">Consectetur</a><a href="#start">Incipe</a></nav>
 </div></header>
 
-<main id="main" class="wrap">
-  <div class="hero hero-ed" data-enter>
-    <p class="kicker"><span>Lorem ipsum dolor</span></p>
-    <h1><span class="h1-line">Lorem ipsum dolor sit</span> <span class="h1-line">amet, consectetur</span> <span class="h1-line h1-accent">adipiscing elit</span></h1>
-    <div class="hero-foot">
-      <p class="sub">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-      <div class="hero-act">
-        <a class="cta" href="#">Lorem ipsum</a>
-        <p class="cta-note">Excepteur sint occaecat · Cupidatat non proident sunt in culpa</p>
-      </div>
-      <dl class="facts">
-        <div><dt>Lorem</dt><dd>Ipsum dolor sit amet</dd></div>
-        <div><dt>Dolor</dt><dd>Consectetur adipiscing</dd></div>
-        <div><dt>Amet</dt><dd>Sed do eiusmod</dd></div>
-        <div><dt>Elit</dt><dd>Tempor incididunt</dd></div>
-      </dl>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Lorem ipsum dolor</p>
+      <h1 class="rise" style="--i:1">Lorem ipsum dolor sit amet, consectetur <span class="soft">adipiscing elit</span></h1>
+      <p class="rise" style="--i:2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+      <a class="button rise" style="--i:3" href="#">Lorem ipsum</a>
+      <p class="meta rise" style="--i:4">Excepteur sint occaecat · Cupidatat non proident sunt in culpa</p>
     </div>
-  </div>
 
-  <figure class="hero-pic"><img class="pic" src="pic-hero.svg" alt="Image 1" width="1200" height="800"></figure>
-
-  <section id="what" class="sec sec-what" aria-labelledby="what-h">
-    <div class="sec-head">
-      <h2 id="what-h">Dolor sit amet</h2>
-      <p class="dek">Consectetur adipiscing elit sed do</p>
-    </div>
-    <div class="grid feat">
-      <div class="card"><img class="pic card-pic" src="pic-card-1.svg" alt="Image 2" width="600" height="400" loading="lazy"><b>Lorem ipsum</b><span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span><a class="btn" href="#">Lorem ipsum</a></div>
-      <div class="card"><img class="pic card-pic" src="pic-card-2.svg" alt="Image 3" width="600" height="400" loading="lazy"><b>Dolor sit amet</b><span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span><a class="btn" href="#">Lorem ipsum</a></div>
-      <div class="card"><img class="pic card-pic" src="pic-card-3.svg" alt="Image 4" width="600" height="400" loading="lazy"><b>Consectetur elit</b><span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span><a class="btn" href="#">Lorem ipsum</a></div>
-      <div class="card"><img class="pic card-pic" src="pic-card-4.svg" alt="Image 5" width="600" height="400" loading="lazy"><b>Sed do eiusmod</b><span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span><a class="btn" href="#">Lorem ipsum</a></div>
-    </div>
+    <img class="shot rise" style="--i:2" src="pic-hero.svg" alt="Image 1" width="1200" height="800">
+    <dl class="facts">
+      <div><dt>Lorem</dt><dd>Ipsum dolor sit amet</dd></div>
+      <div><dt>Dolor</dt><dd>Consectetur adipiscing</dd></div>
+      <div><dt>Amet</dt><dd>Sed do eiusmod</dd></div>
+      <div><dt>Elit</dt><dd>Tempor incididunt</dd></div>
+    </dl>
   </section>
 
-  <section id="example" class="sec sec-ink" aria-labelledby="example-h">
-    <div class="ex">
-      <div class="ex-head">
-        <p class="label">Lorem ipsum dolor</p>
-        <h2 id="example-h">Consectetur adipiscing</h2>
-        <img class="pic ex-pic" src="pic-example.svg" alt="Image 6" width="1200" height="800" loading="lazy">
-      </div>
-      <p class="ex-story">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="ex-act"><a class="cta" href="#">Dolor sit amet</a></div>
+  <section id="wat">
+    <div class="split">
+      <div class="stack"><h2>Dolor sit amet</h2></div>
+      <p>Consectetur adipiscing elit sed do</p>
+    </div>
+    <div class="bento">
+      <article class="tile stack wide reveal">
+        <div class="art"><img src="pic-card-1.svg" alt="Image 2" width="800" height="600"></div>
+        <h3>Lorem ipsum</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <a class="button quiet" href="#">Lorem ipsum</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><img src="pic-card-2.svg" alt="Image 3" width="800" height="600"></div>
+        <h3>Dolor sit amet</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <a class="button quiet" href="#">Lorem ipsum</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><img src="pic-card-3.svg" alt="Image 4" width="800" height="600"></div>
+        <h3>Consectetur elit</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <a class="button quiet" href="#">Lorem ipsum</a>
+      </article>
+      <article class="tile stack wide reveal">
+        <div class="art"><img src="pic-card-4.svg" alt="Image 5" width="800" height="600"></div>
+        <h3>Sed do eiusmod</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <a class="button quiet" href="#">Lorem ipsum</a>
+      </article>
     </div>
   </section>
-  <section id="opis" class="sec sec-opis" aria-labelledby="opis-h">
-    <div class="sec-head">
-      <h2 id="opis-h">Sed ut perspiciatis unde</h2>
+
+  <section id="voorbeeld" class="split flip">
+    <div class="stack">
+      <p class="meta">Lorem ipsum dolor</p>
+      <h2>Consectetur adipiscing</h2>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a class="button" href="#">Dolor sit amet</a>
     </div>
-    <div class="cols">
-    <p class="lede-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <img class="shot reveal" src="pic-example.svg" alt="Image 6" width="1200" height="800">
+  </section>
+<!-- seo-tekst:start -->
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Sed ut perspiciatis unde</h2></div>
+    <div class="stack">
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     </div>
   </section>
-  <section id="faq" class="sec sec-faq" aria-labelledby="faq-h">
-    <div class="sec-head">
-      <h2 id="faq-h">Quis autem vel eum</h2>
-    </div>
-    <div class="qa">
-      <div class="qa-item"><h3>Neque porro quisquam est qui dolorem?</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
-      <div class="qa-item"><h3>Neque porro quisquam est qui dolorem?</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
-      <div class="qa-item"><h3>Neque porro quisquam est qui dolorem?</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
-      <div class="qa-item"><h3>Neque porro quisquam est qui dolorem?</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
-      <div class="qa-item"><h3>Neque porro quisquam est qui dolorem?</h3>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
+  <section id="faq">
+    <div class="stack"><h2>Quis autem vel eum</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Neque porro quisquam est qui dolorem?</h3><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
+      <div class="split flip"><h3>Neque porro quisquam est qui dolorem?</h3><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
+      <div class="split flip"><h3>Neque porro quisquam est qui dolorem?</h3><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
+      <div class="split flip"><h3>Neque porro quisquam est qui dolorem?</h3><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
+      <div class="split flip"><h3>Neque porro quisquam est qui dolorem?</h3><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p></div>
     </div>
   </section>
-  <section id="start" class="sec sec-start" aria-labelledby="start-h">
-    <h2 id="start-h" class="close-type">At vero eos et accusamus</h2>
-    <p class="start-text">Et iusto odio dignissimos ducimus qui blanditiis.</p>
-    <div class="start-row">
-      <p class="field"><label for="worry">Lorem ipsum dolor</label><select id="worry" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— lorem —</option><option>Ipsum I</option><option>Ipsum II</option><option>Ipsum III</option><option>Ipsum IV</option></select></p>
-      <div class="start-act">
-        <a class="cta" href="#">Incipe</a>
-      </div>
+<!-- seo-tekst:end -->
+  <section id="start" class="split">
+    <div class="stack">
+      
+      <h2>At vero eos et accusamus</h2>
+      <p>Et iusto odio dignissimos ducimus qui blanditiis.</p>
+    </div>
+    <div class="tile stack">
+      <label>Lorem ipsum dolor<select><option value="">— lorem —</option><option>Ipsum I</option><option>Ipsum II</option><option>Ipsum III</option><option>Ipsum IV</option></select></label>
+      <a class="button" href="#">Incipe</a>
     </div>
   </section>
 </main>
 
-<footer><div class="wrap">
-  <p class="foot-mark">Lorem Ipsum</p>
+<footer><div class="shell">
+  <p><b>Lorem Ipsum</b></p>
   <p><a href="#">Privacy</a></p>
-  <p class="muted">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
+  <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
 </div></footer>
 
 </body>
