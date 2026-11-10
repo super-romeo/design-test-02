@@ -151,3 +151,9 @@ footer { background: #081833; border-top: 1px solid rgba(255,255,255,.14); }
 /* ===== Shape 02: Medium radius, rounded-rectangle buttons ===== */
 :root { --radius-card: 1rem; --radius-inner: .75rem; --radius-field: .625rem; --radius-pill: .625rem; }
 header a { border-radius: var(--radius-field); }
+
+/* ===== Cards 02: Even grid 2x2, whole picture on top ===== */
+.art { height: auto; aspect-ratio: 4 / 3; }
+@media (min-width: 768px) {
+.bento > *, .bento > .wide { grid-column: span 6; }
+}
