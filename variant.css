@@ -55,6 +55,15 @@ a.cta:active{transform:translateY(1px) scale(.98)}
 .hero-foot{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px clamp(16px,2vw,32px);padding-top:24px;border-top:2px solid var(--ink);align-items:start}
 .hero-foot .sub{grid-column:1 / span 6;margin:0;max-width:none;font-size:var(--t-lede);line-height:1.5;color:var(--ink)}
 .hero-act{grid-column:8 / span 5}
+/* brief 6: shared content — facts row, pictures, start text */
+.facts{grid-column:1 / -1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px clamp(16px,2vw,32px);margin:0;padding-top:16px;border-top:1px solid var(--line)}
+.facts dt{font-family:var(--f-mono);font-size:var(--t-label);line-height:16px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:4px 0 0;font-size:var(--t-body);line-height:1.4;font-weight:600}
+.pic{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.hero-pic{margin:0 0 clamp(40px,4vw,64px)}
+.card-pic{margin-bottom:18px}
+.ex-pic{margin-top:28px}
+.start-text{grid-column:1 / span 7;font-size:var(--t-lede);line-height:1.45;color:var(--muted)}
 
 /* hero entrance, once on load */
 @keyframes rise{from{opacity:0;transform:translateY(.35em)}to{opacity:1;transform:none}}
@@ -153,6 +162,8 @@ footer .muted{color:var(--inv-muted);margin:0;grid-column:7 / span 6}
   .h1-line{display:inline}
   .hero-foot{grid-template-columns:1fr}
   .hero-foot .sub,.hero-act{grid-column:1 / -1}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .start-text{grid-column:1 / -1;font-size:18px}
   .hero-foot .sub{font-size:18px}
   a.cta{display:flex;justify-content:center;width:100%;text-align:center;margin:0}
   .sec{grid-template-columns:1fr;gap:28px;padding:56px 0}
