@@ -173,3 +173,6 @@ header a { border-radius: var(--radius-field); }
 @media (min-width: 768px) {
 :root { --section: 4rem; --gap: clamp(1.5rem, 3.5vw, 3.5rem); --pad-card: 1.75rem; }
 }
+
+/* ===== Header 02: Header scrolls away (not sticky) ===== */
+header { position: static; }
