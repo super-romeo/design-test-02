@@ -130,3 +130,7 @@ select { width: 100%; min-width: 0; min-height: 52px; padding: 0 1rem; font: inh
 }
 
 
+
+/* ===== Background 02: Light / light grey, alternating ===== */
+main > section:nth-of-type(even) { --band: #eef2f7; box-shadow: 0 0 0 100vmax var(--band); clip-path: inset(0 -100vmax); background: var(--band); border-top-color: transparent; }
+main > section:nth-of-type(even) + section { border-top-color: transparent; }
